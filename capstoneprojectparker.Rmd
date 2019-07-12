@@ -1,0 +1,45 @@
+---
+title: "Capstone Project"
+author: "c Parker"
+date: "7/12/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Capstone Project
+Cassandra Parker
+
+1.	What is the problem you would like to solve 
+In my last few years of teaching Calculus I have noticed an increase in the D,W, F rates amongst students not only in Algebra sequences, but also Calculus. Students are not as prepared and sometimes have weak background of Algebra entering into the course.  I have decided to team with Dr. Lewis in exploring propensity score matching to predict/ show the students readiness for the Calculus courses. I will also take a look into if students perform better in Fall versus Spring Semesters.  Analyzing this data could lead to an increase in passing rate, which inevitably assists on retention rates, then graduation rates. 
+
+2.	Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
+My clients for this project will be senior leaders (presidents and vice presidents for academic affairs) at Clark Atlanta University.  I can also include myself and the Mathematics Department Chair. The analysis of the data would help all of us decide how we can improve the D<W< F rates. 
+
+3.	What data are you going to use for this? How will you acquire this data?
+I will use the latest data requested from the Office of Planning, Assessment & Institutional Research at Clark Atlanta. Fall and Spring terms of 2018-2019 school year will be used. 
+
+4.	In brief, outline your approach to solving this problem (knowing that this might change later).
+Since propensity scoring is matching students that have the same characteristics. My approach is to clean data, and analyze scores based on SAT Mathematics Composite Scores and ACT, GPA. 
+
